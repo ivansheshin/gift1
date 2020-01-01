@@ -2,33 +2,48 @@
 body {
 	margin: 0;
 	padding: 0;
-	background-color: #ffffff;}
+	max-width: 1440px;
+	font-family: Roboto;
+}
 
 a{
 	text-decoration: none;
 
+ }
+ *{
+ 	box-sizing: border-box;
  }
 .headnavigation a{
 	color: #000000;
 }
 /* Шапка начало*/
 .head-nav {
-	width: 1440px;
+	width: 100%;
 	margin: 0 auto;
 }
 .head-nav-button{
 	min-width: 140px;
 	height: 38px;
 	border-radius: 5px;
-	background-color: transparent;
+	background:none;
 	border: 1px solid #F7941E;
 	color: #F7941E;
 	font-size: 18px;
 	line-height: 22px;
+	margin-right: 34px;
+	text-transform: uppercase;
+	padding: 0;
+}
+.head-nav-button:hover{
+	cursor: pointer;
+}
+.head-nav-button:focus{
+	outline: none;
 }
 .head-logo {
 	width: 41px;
 	height: 39px;
+	margin-left: 80px;
 }
 
 .headnavigation-list{
@@ -52,8 +67,6 @@ a{
 	min-height: 116px;
 }
 
-
-
 /* Шапка конец */
 .findgift{
 	display: flex;
@@ -61,6 +74,7 @@ a{
 .menwomen{
 	order: 2;
 }
+
 .findgift-flex{
 /* 	display: flex;
 direction: column;
