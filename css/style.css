@@ -1,0 +1,96 @@
+
+body {
+	margin: 0;
+	padding: 0;
+
+	min-width: 1440px;
+	min-height: 3913px;
+	background-color: #ffffff;}
+
+a{
+	text-decoration: none;
+
+ }
+.headnavigation a{
+	color: #000000;
+}
+/* Шапка начало*/
+}
+.head-nav {
+	width: 1440px;
+	min-height: 116px;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+
+}
+.head-nav-button{
+	margin-right: 34px;
+	margin-top: 27px;
+	min-width: 140px;
+	height: 38px;
+	border-radius: 5px;
+	background-color: transparent;
+	border: 1px solid #F7941E;
+	color: #F7941E;
+	box-sizing: border-box;
+	padding-bottom: 14px; 
+	padding-right:25px;
+	padding-top:7.5px;
+	padding-left:24px;
+	font-size: 18px;
+	line-height: 22px;
+	font-family: Gilroy
+}
+.head-logo {
+	width: 41px;
+	height: 39px;
+	margin-left: 80px;
+	margin-top: 35px;
+}
+
+.rofl{
+	display: flex;
+}
+.headnavigation{
+	margin-left: 555px;
+	margin-right: 555px;
+	margin-top: 27px;
+	padding: 0px;
+	min-width: 331px;
+
+}
+.headnavigation-list{
+	list-style: none;
+	text-decoration: none;
+	display: flex;
+	justify-content: space-between;
+
+}
+.headnavigation-div{
+	display: flex;
+	margin: 0;
+	margin-right: 34px;
+
+}
+
+/* Шапка конец */
+.findgift{
+	display: flex;
+}
+.menwomen{
+	order: 2;
+}
+.findgift-flex{
+/* 	display: flex;
+direction: column;
+align-items: center; */
+}
+.ourwork{
+
+}
+.occasion{
+
+
+}
