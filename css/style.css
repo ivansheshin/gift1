@@ -8,6 +8,7 @@ body {
 
 a{
 	text-decoration: none;
+	color: #000000;
  }
 
  *{
@@ -148,9 +149,6 @@ button{
 	display: flex;
 	justify-content: center;
 }	
-.occasion-list a{
-	color: #000000;
-}
 .occasion-seemore{
 	display: inline-block;
 	margin-top: 74px;
@@ -201,9 +199,6 @@ button{
 	color: #231F20;
 	border: 1px solid #231F20;
 }
-.ready-text a{
-	color: #000000;
-}
 /* нашблог */
 .bestblogs-h2{
 	text-align: center;
@@ -214,4 +209,107 @@ button{
 	text-align: center;
 	font-size: 18px;
 	line-height: 24px;
+}
+.comment-img{
+	width: 400px;
+}
+.comment{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 40px;
+}
+.comment-div{
+	color: #ffffff;
+	background-color: #231F20;
+	width: 770px;	
+	padding: 78px;
+
+}
+.comment-div a{
+	color: #ffffff;
+}
+.comment-p1{
+	font-size: 14px;
+	line-height: 20px;
+	margin: 0;
+}
+.comment-p2{
+	font-size: 48px;
+	line-height: 58px;
+}
+/* разное */
+.other{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 80px;
+	
+}
+.other-inf{
+	max-width: 570px;
+	margin-right: 30px;
+	padding: 48px;
+}
+.other-inf2{
+	margin-right: 0;
+}
+
+.other-inf:hover{
+	background-color: #ffffff;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+/* футер */
+.foot1122{
+	display: flex;
+	justify-content: center;
+}
+.foot1122img{
+	order:2;
+}
+.foot11{
+	order: 1;
+	padding:0;
+	margin-right: 70px;
+
+}
+.foot12{
+	order: 3;
+	padding: 0;
+	margin-left: 70px;
+
+}
+.foot11 li{
+	display: inline-block;
+	text-decoration: none;
+	margin-right: 70px;
+
+}
+.foot12 li{
+	display: inline-block;
+	text-decoration: none;
+	margin-right: 70px;
+}
+.foot1122img svg{
+	fill: #F7941E;
+}
+.foot2 ul{
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 39px;
+    height: 39px;
+}
+.foot2 li{
+	display: inline-block;
+
+}
+
+.footerown{
+	display: flex;
+	justify-content: center;
+
+}
+
+.footerown p{
+	margin: 0;
+	margin-right: 15px;
 }
